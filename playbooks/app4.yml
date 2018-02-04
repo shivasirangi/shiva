@@ -1,0 +1,4 @@
+---
+- host: test_servers
+  tasks:
+     - package: name=httpd state=present
